@@ -1,2 +1,2 @@
-# Joshua-Graham-TTS
-Joshua Graham text to speech
+# Joshua-Graham-PDF-TTS
+Joshua Graham reads you a book
