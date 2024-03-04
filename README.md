@@ -1,4 +1,4 @@
-# Joshua-Graham-PDF-TTS
+# Joshua Graham Pdf text to speech
 Joshua Graham reads you a book
 
 ![alt text](https://static.wikia.nocookie.net/fallout/images/3/3f/HH_Joshua_Graham.jpg/revision/latest?cb=20110607152803)
