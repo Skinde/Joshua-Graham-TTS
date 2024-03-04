@@ -10,4 +10,4 @@ pip install -r requirements.txt
 python pdfreader.py
 ```
 
-I recommend downloading the 3h version of https://www.youtube.com/watch?v=Zif4btwLr-Q&list=PLTxhmTj_M8g4KG6AB7XrjKRpf3imyM7o3 in wav format and replacing Joshua short.wav,To improve the quality of the audio.
+ To improve the quality of the audio I recommend replacing the "joshua short.wav" with https://www.youtube.com/watch?v=Zif4btwLr-Q&list=PLTxhmTj_M8g4KG6AB7XrjKRpf3imyM7o3 
