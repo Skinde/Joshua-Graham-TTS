@@ -6,19 +6,25 @@ import torch
 import enchant
 
 
-filename = "the-three-worlds-of-welfare-capitalism-1990.pdf"
+#------------------------------------------------------------
+#User variables
+#Path to the pdf
+filename = "Marcus-Aurelius-Meditations.pdf"
+#Number of pages
+pages = [11,12]
+#Voice
+voice = "joshua short.wav"
+#------------------------------------------------------------
 
 pdf = PdfReader(filename)
 text = ""
 
-for page in pdf.pages[10:12]:
+for page in pdf.pages[pages[0]:pages[1]]:
     text = text + page.extract_text()
 
 
 temp = text.split()
 spell = SpellChecker()
-
-
 
 #Spell check PDF errors
 i = 0
@@ -52,12 +58,9 @@ for word in temp:
     text = text + " "
 text = text[:-1]
 
-print(text)
-
-
 device = "cuda" if torch.cuda.is_available() else "cpu"
 tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
-tts.tts_to_file(text=text, speaker_wav="joshua.wav", language="en", file_path="output.wav")
+tts.tts_to_file(text=text, speaker_wav=voice, language="en", file_path="output.wav")
 
 
 
