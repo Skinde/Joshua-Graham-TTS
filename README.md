@@ -11,3 +11,5 @@ python pdfreader.py
 ```
 
  To improve the quality of the audio I recommend replacing the "joshua short.wav" with https://www.youtube.com/watch?v=Zif4btwLr-Q&list=PLTxhmTj_M8g4KG6AB7XrjKRpf3imyM7o3 (I did not make that audio)
+
+By Miguel L.
